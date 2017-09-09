@@ -23,7 +23,9 @@ canvas {
    background-position: 50% 50%;  
 }
 
+
 .center {
+    pointer-events: none;
   position: absolute;
   margin: auto;
   top: 0;
@@ -58,6 +60,7 @@ canvas {
 }
 
 a {
+  pointer-events: auto;
   text-decoration: none;
   color:initial;
 }
